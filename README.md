@@ -3,9 +3,23 @@ keepisisopen
 
 This is a bookmarklet that will stop isis from prompting you to keep it open every 3 seconds!
 
-Drag this --> [Keep Isis Open!](javascript:(function(\){ window.confirm=function(a\){return true;}; }\)(\);)
+Install
+---------
 
-to your favorites bar. Then on Isis, hit the bookmark. No more Confirmation windows!
+Copy the following line to your clipboard
+
+    javascript:(function(){window.confirm=function(a){return true;};})();
+
+Now create a new bookmark called whatever you want (Keep Isis Opened works for the lazy)
+
+Paste the line you copied above into the URL field of the new bookmark.
+
+You're done!
+
+Use
+--------
+1. Go to a page on isis
+2. Click the bookmark
 
 Todos/Notes
 ---------
